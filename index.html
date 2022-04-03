@@ -20,22 +20,39 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  Victor Crest
-  26
-  London
+<body class="flex flex-col items-center content-center justify-center min-h-screen text-lg text-center font-kumbh bg-dark-cyan bg-[url('./images/bg-pattern-bottom.svg')]">
+  <main class="overflow-hidden bg-white rounded-lg w-80">
+    <img src="./images/bg-pattern-card.svg" alt="background">
+    
+    <div class="relative flex items-center content-center justify-center">
+      <img class="absolute rounded-full ring-4 ring-white" src="./images/image-victor.jpg" alt="avatar">
+    </div>
 
-  80K
-  Followers
+    <div class="mt-16 mb-8">
+      <h2 class="font-bold text-desaturated-blue">Victor Crest <span class="font-normal text-dark-gray">26</span></h2>
+      <span class="text-base text-dark-gray">London</span>
+    </div>
 
-  803K
-  Likes
+    <div class="flex items-center justify-between p-5 border-t-2 border-t-dark-gray">
+      <div>
+        <h3 class="font-bold text-desaturated-blue">80K</h3>
+        <span class="text-base text-dark-gray">Followers</span>
+      </div>
 
-  1.4K
-  Photos
+      <div>
+        <h3 class="font-bold text-desaturated-blue">803K</h3>
+        <span class="text-base text-dark-gray">Likes</span>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-desaturated-blue">1.4K</h3>
+        <span class="text-base text-dark-gray">Photos</span>
+      </div>
+    </div>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Taufan Prasetyo</a>.
   </div>
 </body>
 </html>
